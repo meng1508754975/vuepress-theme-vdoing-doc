@@ -30,9 +30,10 @@ postList: none
 }
 </style>
 
-
 ## 🎖特别用户
+
 ::: cardList 3
+
 ```yaml
 # - name: OpenHarmony
 #   desc: 开放原子开源基金会
@@ -55,15 +56,16 @@ postList: none
 #   bgColor: '#f1f1f1'
 #   textColor: '#2A3344'
 ```
+
 :::
 
 <br/>
 
 ## 🎉上新推荐
+
 * `2024-11-29`：测试~
 
 <br/>
-
 
 ## ⚡ 反馈与交流
 

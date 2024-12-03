@@ -53,18 +53,18 @@
 //   </a>`,
 
 
-  // windowRB: `
-  //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
-  //   min-width: auto;min-height:auto;"></div>
-  //   <style>
-  //     .windowRB{ padding: 0;}
-  //     .windowRB .wwads-img{margin-top: 10px;}
-  //     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
-  //     .custom-html-window-rb .close-but{
-  //       display: none;
-  //     }
-  //   </style>
-  // `
+// windowRB: `
+//   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
+//   min-width: auto;min-height:auto;"></div>
+//   <style>
+//     .windowRB{ padding: 0;}
+//     .windowRB .wwads-img{margin-top: 10px;}
+//     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
+//     .custom-html-window-rb .close-but{
+//       display: none;
+//     }
+//   </style>
+// `
 // }
 
 

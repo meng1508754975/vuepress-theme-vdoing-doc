@@ -3,19 +3,19 @@
     <div class="form-header">用户名</div>
     <div>
       <input
-          type="text"
+          v-model="username"
           class="form-control"
           placeholder="请输入用户名 ..."
-          v-model="username"
+          type="text"
       />
     </div>
     <div class="form-header">密码</div>
     <div>
       <input
-          type="password"
+          v-model="password"
           class="form-control"
           placeholder="请输入密码 ..."
-          v-model="password"
+          type="password"
       />
     </div>
 
@@ -55,9 +55,9 @@ export default {
      * 登录验证
      */
     login() {
-      let { privateInfo } = this;
+      let {privateInfo} = this;
       // 获取全局配置
-      let { username, password, loginKey, expire, firstLoginKey, loginInfo } =
+      let {username, password, loginKey, expire, firstLoginKey, loginInfo} =
           this.$themeConfig.privatePage;
       !loginKey && (loginKey = "vdoing_manager"); // 默认为 vdoing_manager
       // 计算正确的过期时间
@@ -108,7 +108,8 @@ export default {
                   throw new Error();
                 }
               });
-            } catch (e) {}
+            } catch (e) {
+            }
           }
           // checkLoginInfo：判断是否进行了 loginInfo 验证
           let checkLoginInfo = false;
@@ -236,6 +237,7 @@ export default {
     },
   },
 };
+
 /**
  * 添加消息提示
  * content：内容
@@ -293,6 +295,7 @@ function addTip(content, type, startHeight = 50, dieTime = 3000) {
     }, 500);
   }, dieTime);
 }
+
 /**
  * 获取后面的兄弟元素
  */
