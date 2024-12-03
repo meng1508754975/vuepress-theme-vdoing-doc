@@ -67,25 +67,20 @@ postList: none
 
 ## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
-你也可以在Issue查看别人提的问题和给出解决方案。
-
-或者加入我们的交流群：
+在使用过程中有任何问题和想法，请加入我们的交流群：
 
 <table>
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing微信群(添加我微信备注"进群")</p>
-      </td>
-      <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing QQ群: 694387113</p>
+        <p>QQ群: 863257203</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+
+[//]: # (<img :src="$withBase&#40;'/img/qrcode/qqq.webp'&#41;" alt="群号: 863257203" class="no-zoom" style="width:120px;margin: 10px;">)
 
 
 <!-- AD -->
