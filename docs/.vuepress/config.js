@@ -14,8 +14,8 @@ module.exports = {
         ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: '我的世界插件,Minecraft插件'}],
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
-        ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://www.youngkbt.cn/noscript/"><style>.theme-vdoing-content { display:none }'] //安全检测代码
-        ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3129839_xft6cqs5gc.css' }], // 阿里在线图标
+        ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://www.youngkbt.cn/noscript/"><style>.theme-vdoing-content { display:none }'], //安全检测代码
+        ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3129839_xft6cqs5gc.css' }] // 阿里在线图标
 
         //['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
         //['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
