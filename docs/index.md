@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: 小梦Minecraft插件文档
-tagline: 🚀Minecraft插件文档
+heroText: Minecraft插件文档
+tagline: 🚀Minecraft个人插件文档
 actionText: 开始使用 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -11,16 +11,13 @@ features: # 可选的
   - title: 简易配置
     details: 一目了然，完善注释，小白也能轻松上手
   - title: 快速修复
-    details: BUG问题及时解决，保障稳定运行
-#  - title: 沉浸式阅读
-#    details: 专为阅读设计的UI，配合多种颜色模式、可关闭的侧边栏和导航栏，带给你一种沉浸式阅读体验
+    details: BUG问题不及时解决，不保障稳定运行（
+  - title: 高效性能
+    details: 多项优化，稳定流畅，性能卓越，极致体验
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-<p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
-</p>
 
 <style>
 .become-sponsor {
@@ -67,29 +64,6 @@ postList: none
 
 <br/>
 
-<!-- ## ⚡️未来...
-
-::: tip
-期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
-
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress。还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
-::: -->
-
-<br/>
-
-<!-- ## 💎 公众号
-`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如：
-- [小霸王游戏机](https://game.xugaoyi.com)
-- [爱国头像生成器](https://avatar.xugaoyi.com/)
-- [到账语音生成器](https://zfb.xugaoyi.com/)
-
-还有更多好玩的等你去探索吧~
-
-::: center
-<img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
-:::
-
-<br/> -->
 
 ## ⚡ 反馈与交流
 
