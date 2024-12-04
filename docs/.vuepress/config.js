@@ -11,7 +11,7 @@ module.exports = {
     description: '一个我的世界插件插件文档',
     // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-        ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
+        // ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: '我的世界插件,Minecraft插件'}],
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
         ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://www.youngkbt.cn/noscript/"><style>.theme-vdoing-content { display:none }'], //安全检测代码
@@ -156,10 +156,10 @@ module.exports = {
 
     // 插件
     plugins: [
-        // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-        //   color: '#11a8cd', // 爱心颜色，默认随机色
-        //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-        // }],
+        [require('./plugins/love-me'), { // 鼠标点击爱心特效
+          color: '#11a8cd', // 爱心颜色，默认随机色
+          excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
+        }],
 
         ['fulltext-search'], // 全文搜索
 
