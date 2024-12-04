@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.png
+#heroImage: /img/logo.png
 heroText: Minecraft插件文档
 tagline: 🚀Minecraft个人插件文档
 actionText: 开始使用 →
