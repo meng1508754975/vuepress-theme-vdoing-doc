@@ -108,3 +108,7 @@ postList: none
     display: block;
   }
 </style>
+
+<ClientOnly>
+  <IndexBigImg />
+</ClientOnly>
